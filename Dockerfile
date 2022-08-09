@@ -1,7 +1,7 @@
-gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:6b642967b884ae8971c6fa1f0d3a436c06ccf90ec03da81f85e74768773eb290
-gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:c54682f20c4758aabd9e9a45805ae382ef9de8a953026a308273fb94b71719d5
-gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:a2938d3c0e913b74b96f69845cdc09d4674a465a0895f71db9afe76d805db853
-gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:d903707ec8c20f7a0a36852a0cf70062fbd23015d820f4ef085855de02e293ec
-gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping@sha256:d8754f853daefe201785ee4e3f71626bd5c010456259debe520ea0da78f04673
-gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook@sha256:0b8fe2e03c4ce979d9f98df542ce48884b46cda098006fafa7db45b7f90ccfdb
-gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:86a5b8bb6cc0bd8cc9f02bf7035cff840c3543055578286013d59e8b4c313308
+FROM gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:6b642967b884ae8971c6fa1f0d3a436c06ccf90ec03da81f85e74768773eb290
+FROM gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:c54682f20c4758aabd9e9a45805ae382ef9de8a953026a308273fb94b71719d5
+FROM gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:a2938d3c0e913b74b96f69845cdc09d4674a465a0895f71db9afe76d805db853
+FROM gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:d903707ec8c20f7a0a36852a0cf70062fbd23015d820f4ef085855de02e293ec
+FROM gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping@sha256:d8754f853daefe201785ee4e3f71626bd5c010456259debe520ea0da78f04673
+FROM gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook@sha256:0b8fe2e03c4ce979d9f98df542ce48884b46cda098006fafa7db45b7f90ccfdb
+FROM gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:86a5b8bb6cc0bd8cc9f02bf7035cff840c3543055578286013d59e8b4c313308
